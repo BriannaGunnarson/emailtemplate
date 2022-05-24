@@ -1,0 +1,49 @@
+
+/*CSS for the groups column (inbox drafts ect)*/
+.col-group
+
+.groups{
+    height: 2em;
+}
+
+.groups:hover{
+    border: 1px solid black;
+    border-radius: 0px 25px 25px 0px;
+    background-color: pink;
+}
+
+/*CSS for the email list column*/
+
+.col-list
+
+.list{
+    height: 4em;
+    border: 1px solid grey;
+}
+
+.list:hover{
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+/*CSS that applies to both the email groups column and the email ist column*/
+
+/*.group-and-list:hover{
+    border: 3px solid black;
+    background-color: pink;
+}
+*/
+.group-and-list{
+    
+}
+
+/*CSS for the email message*/
+.col-message{
+background-color: white;
+height: 100em;
+border: 1px solid grey;
+}
+
+.logo{
+    height: 5em;
+}
